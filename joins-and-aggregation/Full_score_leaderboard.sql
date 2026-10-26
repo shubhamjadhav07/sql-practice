@@ -5,7 +5,7 @@ FROM Hackers h
 JOIN (
     SELECT
         s.hacker_id,
-        s.challenge_id
+        s.challenge_id 
     FROM Submissions s
     JOIN Challenges c
         ON s.challenge_id = c.challenge_id
