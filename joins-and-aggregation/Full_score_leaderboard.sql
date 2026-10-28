@@ -1,6 +1,6 @@
 SELECT
     h.hacker_id,
-    h.name
+    h.name 
 FROM Hackers h
 JOIN (
     SELECT
