@@ -1,4 +1,4 @@
-SELECT
+ SELECT
     h.hacker_id,
     h.name 
 FROM Hackers h
