@@ -2,7 +2,7 @@
 Problem:
 Find each continent and its average city population,
 rounded down to the nearest integer.
-
+ 
 Concepts:
 INNER JOIN, AVG(), FLOOR(), GROUP BY
 */
