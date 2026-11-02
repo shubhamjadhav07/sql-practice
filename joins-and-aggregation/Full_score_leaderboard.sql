@@ -2,7 +2,7 @@ SELECT
     h.hacker_id,
     h.name 
 FROM Hackers h
-JOIN (
+JOIN ( 
     SELECT
         s.hacker_id,
         s.challenge_id 
