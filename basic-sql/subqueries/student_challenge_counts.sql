@@ -1,4 +1,4 @@
-
+ 
 SELECT
     h.hacker_id,
     h.name,
