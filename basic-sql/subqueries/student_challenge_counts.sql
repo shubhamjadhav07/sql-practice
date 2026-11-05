@@ -1,4 +1,4 @@
- SELECT
+SELECT
     h.hacker_id,
     h.name,
     COUNT(c.challenge_id) AS total_challenges
