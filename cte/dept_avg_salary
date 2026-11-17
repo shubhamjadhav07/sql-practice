@@ -1,0 +1,14 @@
+WITH avg_sal AS (
+    SELECT
+        dept_id,
+        AVG(salary) AS avg_salary
+    FROM Employees
+    GROUP BY dept_id
+    HAVING AVG(salary) > 55000
+)
+SELECT
+    d.dept_name,
+    a.avg_salary
+FROM avg_sal a
+JOIN Departments d
+    ON a.dept_id = d.dept_id;
