@@ -3,7 +3,7 @@ WITH avg_sal AS (
         dept_id,
         AVG(salary) AS avg_salary
     FROM Employees
-    GROUP BY dept_id
+    GROUP BY dept_id 
     HAVING AVG(salary) > 55000
 )
 SELECT
