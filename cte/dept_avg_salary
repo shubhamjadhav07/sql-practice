@@ -1,4 +1,4 @@
-WITH avg_sal AS (
+ WITH avg_sal AS (
     SELECT
         dept_id,
         AVG(salary) AS avg_salary
